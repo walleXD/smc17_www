@@ -25,6 +25,11 @@
       WhySection,
       SmcSixteen,
       ContactSection
+    },
+    head() {
+      return {
+        title: 'Home'
+      }
     }
   };
 </script>
