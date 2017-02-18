@@ -4,7 +4,6 @@
     <about-section />
     <location-section />
     <why-section />
-    <smc-sixteen />
     <contact-section />
   </div>
 </template>

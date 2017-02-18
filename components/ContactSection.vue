@@ -1,5 +1,5 @@
 <template lang="html">
-  <section class="hero is-primary is-fullheight">
+  <section class="hero is-info is-fullheight">
     <div class="hero-body">
       <div class="container">
         <h1 class="title">Contact</h1>

@@ -1,13 +1,15 @@
 <template lang="html">
-  <section class="is-large is-primary hero">
+  <section class="is-large is-primary hero" id="about">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title">
-          Large title
-        </h1>
-        <h2 class="subtitle">
-          Large subtitle
-        </h2>
+        <div class="columns">
+          <div class="column is-6">
+            <h1>Photo</h1>
+          </div>
+          <div class="column is-6">
+            <h1>Text</h1>
+          </div>
+        </div>
       </div>
     </div>
   </section>

@@ -3,10 +3,9 @@
     <nav class="tabs is-boxed is-fullwidth">
       <div class="container">
         <ul>
-          <li><a>What's SMC'17?</a></li>
-          <li><a>We are in NYC</a></li>
-          <li><a>Why Go?</a></li>
-          <li><a>SMC'16</a></li>
+          <li><a href="#about">What's SMC'17?</a></li>
+          <li><a href="#location">We are in NYC</a></li>
+          <li><a href="#why">Why Go?</a></li>
         </ul>
       </div>
     </nav>
@@ -15,9 +14,6 @@
 
 <script>
   export default {
-    components: {},
-    methods: {},
-    data: () => ({})
   };
 </script>
 

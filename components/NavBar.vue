@@ -4,8 +4,7 @@
       <div class="container">
         <div class="nav-left">
           <a class="nav-item">
-            <img src="~assets/img/smc17_logo.png" alt="Logo">
-            <span>SMC'17</span>
+            <img src="~assets/img/nav_logo.png" alt="Logo">
           </a>
         </div>
         <span class="nav-toggle" v-on:click="changeMobileNav" v-bind:class="{ 'is-active': isActive }">
@@ -14,18 +13,18 @@
           <span></span>
         </span>
         <div class="nav-right nav-menu" v-bind:class="{ 'is-active': isActive }">
-          <a class="nav-item">
+          <nuxt-to class="nav-item">
             Panels
-          </a>
-          <a class="nav-item">
+          </nuxt-to>
+          <nuxt-to class="nav-item">
             Speakers
-          </a>
-          <a class="nav-item">
+          </nuxt-to>
+          <nuxt-to class="nav-item">
             Location
-          </a>
-          <a class="nav-item">
+          </nuxt-to>
+          <nuxt-to class="nav-item">
             Sponsors
-          </a>
+          </nuxt-to>
           <span class="nav-item">
             <a class="button is-success is-primary" href="https://www.eventbrite.com/e/student-media-con-2017-tickets-29935948227" target="_blank">
               <span class="icon">

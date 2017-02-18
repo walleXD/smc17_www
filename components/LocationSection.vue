@@ -1,5 +1,5 @@
 <template lang="html">
-  <section class="is-light hero is-large">
+  <section class="is-info hero is-large" id="location">
     <div class="hero-body">
       <div class="container">
         <h1 class="title">

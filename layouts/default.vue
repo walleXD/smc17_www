@@ -16,11 +16,6 @@
     components: {
       NavBar,
       NavFooter
-    },
-    head () {
-      return {
-        titleTemplate: '%s - SMC\'17'
-      };
     }
   };
 </script>
